@@ -143,19 +143,25 @@ h2 {
     border: none;
 }
 
+.bottom .selecao.ativado {
+    background-color: #32B72F;
+    font-weight: bold;
+  }
+
 .selecionado {
     box-shadow: 0px 0px 10px -4px rgb(0 0 0 / 25%), inset 0px 0px 0px 5px #32b72f;
 }
 
-.container ion-icon {
+.opcao .check {
     color: #32B72F;
     position: absolute;
     right: 10px;
     bottom: 10px;
     width: 15.44px;
     height: 15.44px;
+    opacity: 0;
 }
 
-.none {
-    display: none;
+.container .box-opcoes .opcao.selecionado .check {
+    opacity: 1;
 }

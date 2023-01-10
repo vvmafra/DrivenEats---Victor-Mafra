@@ -24,24 +24,31 @@
                 <div class="opcoes comida">
                     <div data-test="dish" class="opcao" onclick="selecionarComida(this)" onclick="check(this)">
                         <img src="./imagens/frango_yin_yang.png">
-                        <h3 data-test="item-name">Frango Yin Yang</h3>
-                        <h4>Um pouco de batata, um pouco de salada</h4>
-                        <h5 data-test="item-price">R$ 14,90</h5>
-                        <ion-icon class="none" name="checkmark-circle"></ion-icon>
+                        <h3 class="titulo" data-test="item-name">Frango Yin Yang</h3>
+                        <h4 class="descricao">Um pouco de batata, um pouco de salada</h4>
+                        <h5 class="preco" data-test="item-price">R$ 14,90</h5>
+                        <div class="check">
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                        
                     </div> <!--opcao-->
                     <div data-test="dish" class="opcao" onclick="selecionarComida(this)">
                         <img src="./imagens/hamburguer.jpg">
-                        <h3 data-test="item-name">Hambúguerzão</h3>
-                        <h4>Bastante carne e um pouco de salada</h4>
-                        <h5 data-test="item-price">R$ 21,90</h5>
-                        <ion-icon class="none" name="checkmark-circle"></ion-icon>
+                        <h3 class="titulo" data-test="item-name">Hambúguerzão</h3>
+                        <h4 class="descricao">Bastante carne e um pouco de salada</h4>
+                        <h5 class="preco" data-test="item-price">R$ 21,90</h5>
+                        <div class="check">
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
                     </div> <!--opcao-->
                     <div data-test="dish" class="opcao" onclick="selecionarComida(this)">
                         <img src="./imagens/macarrao.jpg">
-                        <h3 data-test="item-name">Macarrão do bom</h3>
-                        <h4>Excesso de macarrão, junto com temperos</h4>
-                        <h5 data-test="item-price">R$ 26,70</h5>
-                        <ion-icon class="none" name="checkmark-circle"></ion-icon>
+                        <h3 class="titulo" data-test="item-name">Macarrão do bom</h3>
+                        <h4 class="descricao">Excesso de macarrão, junto com temperos</h4>
+                        <h5 class="preco" data-test="item-price">R$ 26,70</h5>
+                        <div class="check">
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
                     </div> <!--opcao-->
                 </div> <!--opções-->
             </div> <!--box-opções (pratos, bebidas e sobremesas)-->
@@ -50,24 +57,30 @@
                 <div class="opcoes bebida">
                     <div data-test="drink" class="opcao" onclick="selecionarBebida(this)">
                         <img src="./imagens/coca-cola.png">
-                        <h3 data-test="item-name">Coquinha gelada</h3>
-                        <h4>Lata 350ml</h4>
-                        <h5 data-test="item-price">R$ 4,90</h5>
-                        <ion-icon class="none" name="checkmark-circle"></ion-icon>
+                        <h3 class="titulo" data-test="item-name">Coquinha gelada</h3>
+                        <h4 class="descricao">Lata 350ml</h4>
+                        <h5 class="preco" data-test="item-price">R$ 4,90</h5>
+                        <div class="check">
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
                     </div> <!--opcao-->
                     <div data-test="drink" class="opcao" onclick="selecionarBebida(this)">
                         <img src="./imagens/milk.png">
-                        <h3 data-test="item-name">Milkshake Baunilha</h3>
-                        <h4>400ml</h4>
-                        <h5 data-test="item-price">R$ 6,90</h5>
-                        <ion-icon class="none" name="checkmark-circle"></ion-icon>
+                        <h3 class="titulo" data-test="item-name">Milkshake Baunilha</h3>
+                        <h4 class="descricao" >400ml</h4>
+                        <h5 class="preco" data-test="item-price">R$ 6,90</h5>
+                        <div class="check">
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
                     </div> <!--opcao-->
                     <div data-test="drink" class="opcao" onclick="selecionarBebida(this)">
                         <img src="./imagens/cha.jpg">
-                        <h3 data-test="item-name">Chá de Camomila</h3>
-                        <h4>200ml</h4>
-                        <h5 data-test="item-price">R$ 4,50</h5>
-                        <ion-icon class="none" name="checkmark-circle"></ion-icon>
+                        <h3 class="titulo" data-test="item-name">Chá de Camomila</h3>
+                        <h4 class="descricao">200ml</h4>
+                        <h5 class="preco" data-test="item-price">R$ 4,50</h5>
+                        <div class="check">
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
                     </div> <!--opcao-->
                 </div> <!--opções-->
             </div> <!--box-opções (pratos, bebidas e sobremesas)-->
@@ -76,30 +89,36 @@
                 <div class="opcoes sobremesa">
                     <div data-test="dessert" class="opcao" onclick="selecionarSobremesa(this)">
                         <img src="./imagens/pudim.png">
-                        <h3 data-test="item-name">Pudim</h3>
-                        <h4>Apenas pudim</h4>
-                        <h5 data-test="item-price">R$ 7,90</h5>
-                        <ion-icon class="none" name="checkmark-circle"></ion-icon>
+                        <h3 class="titulo" data-test="item-name">Pudim</h3>
+                        <h4 class="descricao">Apenas pudim</h4>
+                        <h5 class="preco" data-test="item-price">R$ 7,90</h5>
+                        <div class="check">
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
                     </div> <!--opcao-->
                     <div data-test="dessert" class="opcao" onclick="selecionarSobremesa(this)">
                         <img src="./imagens/petit-gateau.jpg">
-                        <h3 data-test="item-name">Petit Gateau</h3>
-                        <h4>Com sorvete</h4>
-                        <h5 data-test="item-price">R$ 13,90</h5>
-                        <ion-icon class="none" name="checkmark-circle"></ion-icon>
+                        <h3 class="titulo" data-test="item-name">Petit Gateau</h3>
+                        <h4 class="descricao">Com sorvete</h4>
+                        <h5 class="preco" data-test="item-price">R$ 13,90</h5>
+                        <div class="check">
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
                     </div> <!--opcao-->
                     <div data-test="dessert" class="opcao" onclick="selecionarSobremesa(this)">
                         <img src="./imagens/bolo-cenoura.jpg">
-                        <h3 data-test="item-name">Bolo de Cenoura</h3>
-                        <h4>Pedaço do bolo</h4>
-                        <h5 data-test="item-price">R$ 7,90</h5>
-                        <ion-icon class="none" name="checkmark-circle"></ion-icon>
+                        <h3 class="titulo" data-test="item-name">Bolo de Cenoura</h3>
+                        <h4 class="descricao">Pedaço do bolo</h4>
+                        <h5 class="preco" data-test="item-price">R$ 7,90</h5>
+                        <div class="check">
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
                     </div> <!--opcao-->
                 </div> <!--opções-->
             </div> <!--box-opções (pratos, bebidas e sobremesas)-->
         </div> <!--container com todas informações principais-->
         <div class="bottom">
-            <button data-test="order-btn" class="selecao">
+            <button data-test="order-btn" class="selecao" disabled onclick="fazerPedido()">
                 Selecione os 3 itens para fechar o pedido
             </button> <!--selecao-->
         </div> <!--bottom-->
